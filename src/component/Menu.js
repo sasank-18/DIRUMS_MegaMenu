@@ -17,11 +17,6 @@ const Menu = () => {
 
   return (
     <div>
-       <div className="hidden w-[100vw] h-[100vh]  showNotResponisve">
-        <span>
-        I regret to inform you that the website is not yet optimized for mobile devices. Due to urgent tasks, I prioritized other aspects. For a better viewing experience, please check the site on a laptop or tablet. I appreciate your understanding.
-        </span>
-       </div>
       <div className="h-14 relative z-20  bg-[#cc8e51] flex flex-1 w-[100vw] flex-wrap  flex-shrink Responsivenss    text-white justify-center  gap-1 font-medium items-center">
         {data.map((parentData) => {
           if (parentData.parent !== null) return;
